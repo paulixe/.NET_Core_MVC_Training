@@ -10,7 +10,10 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
-          "Microsoft.EntityFrameworkCore.Tools": "8.0.6"
+          "Microsoft.EntityFrameworkCore.Tools": "8.0.6",
+          "UdemyFormation.DataAccess": "1.0.0",
+          "UdemyFormation.Models": "1.0.0",
+          "UdemyFormation.Utility": "1.0.0"
         },
         "runtime": {
           "UdemyFormationWeb.dll": {}
@@ -856,6 +859,27 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "UdemyFormation.DataAccess/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
+          "UdemyFormation.Models": "1.0.0",
+          "UdemyFormation.Utility": "1.0.0"
+        },
+        "runtime": {
+          "UdemyFormation.DataAccess.dll": {}
+        }
+      },
+      "UdemyFormation.Models/1.0.0": {
+        "runtime": {
+          "UdemyFormation.Models.dll": {}
+        }
+      },
+      "UdemyFormation.Utility/1.0.0": {
+        "runtime": {
+          "UdemyFormation.Utility.dll": {}
+        }
       }
     }
   },
@@ -1396,6 +1420,21 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "UdemyFormation.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UdemyFormation.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UdemyFormation.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

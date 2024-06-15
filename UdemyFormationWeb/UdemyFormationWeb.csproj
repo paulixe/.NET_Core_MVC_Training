@@ -15,4 +15,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UdemyFormation.DataAccess\UdemyFormation.DataAccess.csproj" />
+    <ProjectReference Include="..\UdemyFormation.Models\UdemyFormation.Models.csproj" />
+    <ProjectReference Include="..\UdemyFormation.Utility\UdemyFormation.Utility.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using UdemyFormationWeb.Data;
+using UdemyFormation.DataAccess.Data;
 
 #nullable disable
 
-namespace UdemyFormationWeb.Migrations
+namespace UdemyFormation.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20240611135409_SeedDataBaseTable")]

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using UdemyFormationWeb.Models;
+using UdemyFormation.Models;
 
-namespace UdemyFormationWeb.Data
+namespace UdemyFormation.DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {

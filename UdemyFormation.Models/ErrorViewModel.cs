@@ -1,4 +1,4 @@
-namespace UdemyFormationWeb.Models
+namespace UdemyFormation.Models
 {
     public class ErrorViewModel
     {

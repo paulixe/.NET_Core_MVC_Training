@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace UdemyFormationWeb.Migrations
+namespace UdemyFormation.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCatagoriesTable : Migration

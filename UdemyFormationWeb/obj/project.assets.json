@@ -1502,6 +1502,42 @@
             "rid": "win"
           }
         }
+      },
+      "UdemyFormation.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
+          "UdemyFormation.Models": "1.0.0",
+          "UdemyFormation.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UdemyFormation.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UdemyFormation.DataAccess.dll": {}
+        }
+      },
+      "UdemyFormation.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/UdemyFormation.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UdemyFormation.Models.dll": {}
+        }
+      },
+      "UdemyFormation.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/UdemyFormation.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UdemyFormation.Utility.dll": {}
+        }
       }
     }
   },
@@ -4096,13 +4132,31 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "UdemyFormation.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../UdemyFormation.DataAccess/UdemyFormation.DataAccess.csproj",
+      "msbuildProject": "../UdemyFormation.DataAccess/UdemyFormation.DataAccess.csproj"
+    },
+    "UdemyFormation.Models/1.0.0": {
+      "type": "project",
+      "path": "../UdemyFormation.Models/UdemyFormation.Models.csproj",
+      "msbuildProject": "../UdemyFormation.Models/UdemyFormation.Models.csproj"
+    },
+    "UdemyFormation.Utility/1.0.0": {
+      "type": "project",
+      "path": "../UdemyFormation.Utility/UdemyFormation.Utility.csproj",
+      "msbuildProject": "../UdemyFormation.Utility/UdemyFormation.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore >= 8.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.6",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.6"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.6",
+      "UdemyFormation.DataAccess >= 1.0.0",
+      "UdemyFormation.Models >= 1.0.0",
+      "UdemyFormation.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4132,7 +4186,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\UdemyFormation.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\UdemyFormation.DataAccess.csproj"
+            },
+            "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.Models\\UdemyFormation.Models.csproj": {
+              "projectPath": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.Models\\UdemyFormation.Models.csproj"
+            },
+            "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.Utility\\UdemyFormation.Utility.csproj": {
+              "projectPath": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.Utility\\UdemyFormation.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

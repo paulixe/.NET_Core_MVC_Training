@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace UdemyFormationWeb.Migrations
+namespace UdemyFormation.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class SeedDataBaseTable : Migration
