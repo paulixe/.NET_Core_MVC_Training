@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UdemyFormationRazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d377e46c3d495a79c1306a22651152b4782382f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d75939c6d36b0bc86fffd37149b231d276cbdbd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("UdemyFormationRazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UdemyFormationRazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
