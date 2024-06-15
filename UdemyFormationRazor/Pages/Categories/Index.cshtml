@@ -1,0 +1,57 @@
+﻿@page
+@model UdemyFormationRazor.Pages.Categories.IndexModel
+<div class="container">
+    <div class="row pt-4 pb-3">
+        <div class="col-6">
+            <h2 class="text-primary">
+                Category List
+            </h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-page="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle"></i>
+                Create New Category
+            </a>
+        </div>
+    </div>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>
+                    Category Named
+                </th>
+                <th>
+                    Display Order
+                </th>
+                <th>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (UdemyFormationRazor.Models.Category category in Model.Categories.OrderBy(u => u.DisplayOrder))
+            {
+                <tr>
+                    <td>@category.Name</td>
+                    <td>
+                        @category.DisplayOrder
+                    </td>
+
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+
+                            <a class="btn btn-primary mx-2" asp-page="Edit" asp-route-id="@category.Id">
+                                <i class="bi bi-pencil-square"></i>
+                                Edit
+                            </a>
+                            <a class="btn btn-delete mx-2 text-danger" asp-page="Delete" asp-route-id="@category.Id">
+                                <i class="bi bi-trash"></i>
+                                Delete
+                            </a>
+                        </div>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
