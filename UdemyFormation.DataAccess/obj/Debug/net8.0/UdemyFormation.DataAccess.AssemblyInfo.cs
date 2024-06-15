@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("UdemyFormationWeb")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("UdemyFormation.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b141b90126c03d2a233df66e0a6a12722a9cb5a")]
-[assembly: System.Reflection.AssemblyProductAttribute("UdemyFormationWeb")]
-[assembly: System.Reflection.AssemblyTitleAttribute("UdemyFormationWeb")]
+[assembly: System.Reflection.AssemblyProductAttribute("UdemyFormation.DataAccess")]
+[assembly: System.Reflection.AssemblyTitleAttribute("UdemyFormation.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
