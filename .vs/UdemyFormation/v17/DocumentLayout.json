@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformationweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|solutionrelative:udemyformationweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformationweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|solutionrelative:udemyformationweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594FA40F-85A5-40A6-AFDF-3283509EB180}|UdemyFormation.DataAccess\\UdemyFormation.DataAccess.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformation.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594FA40F-85A5-40A6-AFDF-3283509EB180}|UdemyFormation.DataAccess\\UdemyFormation.DataAccess.csproj|solutionrelative:udemyformation.dataaccess\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594FA40F-85A5-40A6-AFDF-3283509EB180}|UdemyFormation.DataAccess\\UdemyFormation.DataAccess.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformation.dataaccess\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594FA40F-85A5-40A6-AFDF-3283509EB180}|UdemyFormation.DataAccess\\UdemyFormation.DataAccess.csproj|solutionrelative:udemyformation.dataaccess\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594FA40F-85A5-40A6-AFDF-3283509EB180}|UdemyFormation.DataAccess\\UdemyFormation.DataAccess.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformation.dataaccess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594FA40F-85A5-40A6-AFDF-3283509EB180}|UdemyFormation.DataAccess\\UdemyFormation.DataAccess.csproj|solutionrelative:udemyformation.dataaccess\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{594FA40F-85A5-40A6-AFDF-3283509EB180}|UdemyFormation.DataAccess\\UdemyFormation.DataAccess.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformation.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{594FA40F-85A5-40A6-AFDF-3283509EB180}|UdemyFormation.DataAccess\\UdemyFormation.DataAccess.csproj|solutionrelative:udemyformation.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformationweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|solutionrelative:udemyformationweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,20 +43,12 @@
       "RelativeMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|solutionrelative:udemyformationweb\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformationweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|solutionrelative:udemyformationweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformationweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|solutionrelative:udemyformationweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformationweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|solutionrelative:udemyformationweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformationweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFA9034-A377-4E7B-AB33-61045456AAED}|UdemyFormationWeb\\UdemyFormationWeb.csproj|solutionrelative:udemyformationweb\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{594FA40F-85A5-40A6-AFDF-3283509EB180}|UdemyFormation.DataAccess\\UdemyFormation.DataAccess.csproj|c:\\users\\chaum\\desktop\\.net_core_mvc_training\\udemyformation.dataaccess\\migrations\\20240611133536_addcatagoriestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,50 +82,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "UdemyFormation.DataAccess\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "UdemyFormation.DataAccess\\Repository\\CategoryRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T07:18:39.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "UdemyFormation.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "UdemyFormation.DataAccess\\Repository\\IRepository\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T07:16:20.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "UdemyFormation.DataAccess\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Repository\\Repository.cs",
+              "RelativeToolTip": "UdemyFormation.DataAccess\\Repository\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T07:09:06.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Repository\\IRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "UdemyFormation.DataAccess\\Repository\\IRepository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Repository\\IRepository\\IRepository.cs",
+              "RelativeToolTip": "UdemyFormation.DataAccess\\Repository\\IRepository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T07:04:33.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "UdemyFormationWeb\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\Controllers\\HomeController.cs",
               "RelativeToolTip": "UdemyFormationWeb\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T12:05:24.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "UdemyFormation.Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "UdemyFormation.Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T12:05:09.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\Program.cs",
               "RelativeDocumentMoniker": "UdemyFormationWeb\\Program.cs",
               "ToolTip": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\Program.cs",
               "RelativeToolTip": "UdemyFormationWeb\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T12:03:56.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "UdemyFormationWeb\\Views\\Shared\\Error.cshtml",
@@ -117,12 +172,11 @@
               "RelativeToolTip": "UdemyFormationWeb\\Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T12:03:29.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T12:03:29.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "UdemyFormationWeb\\Views\\_ViewImports.cshtml",
@@ -130,12 +184,11 @@
               "RelativeToolTip": "UdemyFormationWeb\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T12:02:10.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T12:02:10.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "20240611135409_SeedDataBaseTable.Designer.cs",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Migrations\\20240611135409_SeedDataBaseTable.Designer.cs",
               "RelativeDocumentMoniker": "UdemyFormation.DataAccess\\Migrations\\20240611135409_SeedDataBaseTable.Designer.cs",
@@ -143,12 +196,36 @@
               "RelativeToolTip": "UdemyFormation.DataAccess\\Migrations\\20240611135409_SeedDataBaseTable.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T12:01:36.675Z",
+              "WhenOpened": "2024-06-15T12:01:36.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "UdemyFormationWeb\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "UdemyFormationWeb\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T07:22:03.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "UdemyFormation.Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "UdemyFormation.Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T12:05:09.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "20240611133536_AddCatagoriesTable.Designer.cs",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Migrations\\20240611133536_AddCatagoriesTable.Designer.cs",
               "RelativeDocumentMoniker": "UdemyFormation.DataAccess\\Migrations\\20240611133536_AddCatagoriesTable.Designer.cs",
@@ -156,12 +233,11 @@
               "RelativeToolTip": "UdemyFormation.DataAccess\\Migrations\\20240611133536_AddCatagoriesTable.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T12:01:26.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T12:01:26.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "UdemyFormation.DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -169,12 +245,11 @@
               "RelativeToolTip": "UdemyFormation.DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T12:00:45.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T12:00:45.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "20240611135409_SeedDataBaseTable.cs",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Migrations\\20240611135409_SeedDataBaseTable.cs",
               "RelativeDocumentMoniker": "UdemyFormation.DataAccess\\Migrations\\20240611135409_SeedDataBaseTable.cs",
@@ -182,12 +257,11 @@
               "RelativeToolTip": "UdemyFormation.DataAccess\\Migrations\\20240611135409_SeedDataBaseTable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T12:00:42.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T12:00:42.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.Models\\Category.cs",
               "RelativeDocumentMoniker": "UdemyFormation.Models\\Category.cs",
@@ -195,12 +269,11 @@
               "RelativeToolTip": "UdemyFormation.Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T11:58:59.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T11:58:59.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "20240611133536_AddCatagoriesTable.cs",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Migrations\\20240611133536_AddCatagoriesTable.cs",
               "RelativeDocumentMoniker": "UdemyFormation.DataAccess\\Migrations\\20240611133536_AddCatagoriesTable.cs",
@@ -208,25 +281,11 @@
               "RelativeToolTip": "UdemyFormation.DataAccess\\Migrations\\20240611133536_AddCatagoriesTable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T12:00:33.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T12:00:33.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "UdemyFormationWeb\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "UdemyFormationWeb\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T07:22:03.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "UdemyFormationWeb\\Views\\Shared\\_Layout.cshtml",
@@ -234,12 +293,11 @@
               "RelativeToolTip": "UdemyFormationWeb\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-15T07:38:41.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T07:38:41.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormation.DataAccess\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "UdemyFormation.DataAccess\\Data\\ApplicationDbContext.cs",
@@ -247,8 +305,7 @@
               "RelativeToolTip": "UdemyFormation.DataAccess\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T11:59:28.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-15T11:59:28.443Z"
             }
           ]
         }

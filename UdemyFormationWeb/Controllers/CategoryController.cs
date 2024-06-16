@@ -1,21 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using UdemyFormation.DataAccess.Data;
+using UdemyFormation.DataAccess.Repository.IRepository;
 using UdemyFormation.Models;
 
 namespace UdemyFormationWeb.Controllers
 {
     public class CategoryController : Controller
     {
-        private ApplicationDbContext db;
+        private ICategoryRepository categoryRepository;
 
-        public CategoryController(ApplicationDbContext db)
+        public CategoryController(ICategoryRepository categoryRepository)
         {
-            this.db = db;
+            this.categoryRepository = categoryRepository;
         }
 
         public IActionResult Index()
         {
-            List<Category> objCategoryList = db.Categories.ToList();
+            List<Category> objCategoryList = categoryRepository.GetAll().ToList();
             return View(objCategoryList);
         }
 
@@ -34,8 +35,8 @@ namespace UdemyFormationWeb.Controllers
 
             if (ModelState.IsValid)
             {
-                db.Categories.Add(category);
-                db.SaveChanges();
+                categoryRepository.Add(category);
+                categoryRepository.Save();
                 TempData["success"] = "Category correctly created  WOWOWOOWOWO!!!";
                 return RedirectToAction("Index");
             }
@@ -49,7 +50,7 @@ namespace UdemyFormationWeb.Controllers
             {
                 return NotFound();
             }
-            Category? category = db.Categories.Find(id);
+            Category? category = categoryRepository.Get(cat => cat.Id == id);
             if (category is null)
             {
                 return NotFound();
@@ -62,8 +63,8 @@ namespace UdemyFormationWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Categories.Update(category);
-                db.SaveChanges();
+                categoryRepository.Update(category);
+                categoryRepository.Save();
                 TempData["success"] = "Category correctly updated  WOWOWOOWOWO!!!";
                 return RedirectToAction("Index");
             }
@@ -77,7 +78,7 @@ namespace UdemyFormationWeb.Controllers
             {
                 return NotFound();
             }
-            Category? category = db.Categories.Find(id);
+            Category? category = categoryRepository.Get(cat => cat.Id == id);
             if (category is null)
             {
                 return NotFound();
@@ -93,13 +94,13 @@ namespace UdemyFormationWeb.Controllers
             {
                 return NotFound();
             }
-            Category? category = db.Categories.Find(id);
+            Category? category = categoryRepository.Get(cat => cat.Id == id);
             if (category is null)
             {
                 return NotFound();
             }
-            db.Categories.Remove(category);
-            db.SaveChanges();
+            categoryRepository.Remove(category);
+            categoryRepository.Save();
             TempData["success"] = "Category correctly deleted  WOWOWOOWOWO!!!";
 
             return RedirectToAction("Index");
