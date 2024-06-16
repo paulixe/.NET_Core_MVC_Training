@@ -15,11 +15,6 @@ namespace UdemyFormation.DataAccess.Repository
         {
         }
 
-        public void Save()
-        {
-            db.SaveChanges();
-        }
-
         public void Update(Category category)
         {
             dbSet.Update(category);
