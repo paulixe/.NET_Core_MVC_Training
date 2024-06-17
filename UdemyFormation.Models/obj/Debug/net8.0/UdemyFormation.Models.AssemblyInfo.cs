@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UdemyFormation.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecb3086e379bb0f915cb617ba7df14f6a6808853")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68990af0e419716459cd0e1430c6c3944dada605")]
 [assembly: System.Reflection.AssemblyProductAttribute("UdemyFormation.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UdemyFormation.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

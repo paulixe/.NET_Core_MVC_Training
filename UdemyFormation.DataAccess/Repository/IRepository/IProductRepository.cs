@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UdemyFormation.Models;
 
 namespace UdemyFormation.DataAccess.Repository.IRepository
 {
-    public interface IUnitOfAction
+    public interface IProductRepository : IRepository<Product>
     {
-        public ICategoryRepository Category { get; }
-        public IProductRepository Product { get; }
-
-        public void Save();
+        void Update(Product product);
     }
 }

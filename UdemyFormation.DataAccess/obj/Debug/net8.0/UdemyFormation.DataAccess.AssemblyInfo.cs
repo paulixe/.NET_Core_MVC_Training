@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UdemyFormation.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+579f40ce0db4ac9ab55b2ea51feb0d15b6ff2855")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68990af0e419716459cd0e1430c6c3944dada605")]
 [assembly: System.Reflection.AssemblyProductAttribute("UdemyFormation.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UdemyFormation.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
