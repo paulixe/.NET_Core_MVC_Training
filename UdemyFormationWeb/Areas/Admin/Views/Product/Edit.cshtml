@@ -32,6 +32,9 @@
             <input asp-for="Price10" />
             <span asp-validation-for="Price10" class="text-danger"></span>
         </div>
+        <img src="@Model.ImagePath" width="100"
+             style="border-radius:5px; border:1px solid #bbb9b9" />
+
         <div class="row">
             <div class="col-6 col-md-3">
                 <a type="button" asp-controller="Product" asp-action="Index" class="btn btn-outline-secondary" style="width:150px">

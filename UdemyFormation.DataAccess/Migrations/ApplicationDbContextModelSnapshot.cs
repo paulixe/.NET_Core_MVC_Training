@@ -70,10 +70,16 @@ namespace UdemyFormation.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(2000)
                         .HasColumnType("nvarchar(2000)");
+
+                    b.Property<string>("ImagePath")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("Price")
                         .HasColumnType("float");
@@ -88,12 +94,15 @@ namespace UdemyFormation.DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Products");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
+                            CategoryId = 1,
                             Description = "A young nurse has to save a soldier from death.",
                             Price = 10.0,
                             Price10 = 9.0,
@@ -102,6 +111,7 @@ namespace UdemyFormation.DataAccess.Migrations
                         new
                         {
                             Id = 2,
+                            CategoryId = 2,
                             Description = "Special effects everywhere. Bring solar glasses if you don't to become blind.",
                             Price = 11.600000381469727,
                             Price10 = 10.0,
@@ -110,6 +120,7 @@ namespace UdemyFormation.DataAccess.Migrations
                         new
                         {
                             Id = 3,
+                            CategoryId = 3,
                             Description = "Work or die. That's the sentence said everyday in the company of Bob.",
                             Price = 9.0,
                             Price10 = 8.0,
@@ -118,11 +129,23 @@ namespace UdemyFormation.DataAccess.Migrations
                         new
                         {
                             Id = 4,
+                            CategoryId = 1,
                             Description = "Love must be fed everyday or it perished into a disaster.",
                             Price = 10.0,
                             Price10 = 9.5,
                             Title = "Love story"
                         });
+                });
+
+            modelBuilder.Entity("UdemyFormation.Models.Product", b =>
+                {
+                    b.HasOne("UdemyFormation.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

@@ -393,3 +393,4 @@ C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormationWeb\bin\Debug\net8.0
 C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormationWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormationWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormationWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormationWeb\obj\Debug\net8.0\UdemyFormationWeb.MvcApplicationPartsAssemblyInfo.cs

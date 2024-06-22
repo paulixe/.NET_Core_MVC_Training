@@ -31,9 +31,16 @@ namespace UdemyFormation.DataAccess.Repository
             return dbSet.Where(filter).FirstOrDefault();
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(string? includeProperty = null)
         {
-            return dbSet.ToList();
+            var query = dbSet.AsQueryable();
+
+            if (includeProperty != null)
+            {
+                query = query.Include(includeProperty);
+            }
+
+            return query.ToList();
         }
 
         public void Remove(T entity)

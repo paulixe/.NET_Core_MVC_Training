@@ -1,5 +1,7 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace UdemyFormation.Models
 {
@@ -21,5 +23,14 @@ namespace UdemyFormation.Models
 
         [Range(0, 1000)]
         public double Price10 { get; set; }
+
+        [Required(ErrorMessage = "Please fills the category")]
+        public int CategoryId { get; set; }
+
+        [ValidateNever]
+        public Category Category { get; set; }
+
+        [ValidateNever]
+        public string? ImagePath { get; set; }
     }
 }
