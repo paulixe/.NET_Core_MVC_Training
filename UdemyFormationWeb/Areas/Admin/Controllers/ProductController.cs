@@ -8,6 +8,7 @@ using Azure.Core.Diagnostics;
 
 namespace UdemyFormationWeb.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class ProductController : Controller
     {
         private IWebHostEnvironment webHostEnvironment;

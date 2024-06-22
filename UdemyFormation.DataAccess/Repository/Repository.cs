@@ -26,9 +26,14 @@ namespace UdemyFormation.DataAccess.Repository
             dbSet.Add(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> filter)
+        public T Get(Expression<Func<T, bool>> filter, string? includeProperty)
         {
-            return dbSet.Where(filter).FirstOrDefault();
+            IQueryable<T> query = dbSet.Where(filter);
+            if (includeProperty != null)
+            {
+                query = query.Include(includeProperty);
+            }
+            return query.FirstOrDefault();
         }
 
         public IEnumerable<T> GetAll(string? includeProperty = null)

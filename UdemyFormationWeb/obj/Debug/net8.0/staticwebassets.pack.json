@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\UdemyFormationWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\wwwroot\\Images\\Product\\0ea0ab53-6f7f-4f18-b4f4-abf8bea97ff9.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\0ea0ab53-6f7f-4f18-b4f4-abf8bea97ff9.jpg"
+    },
+    {
       "Id": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\wwwroot\\Images\\Product\\2b3ab631-e958-467f-aee7-0edf8619f031.jpg",
       "PackagePath": "staticwebassets\\Images\\Product\\2b3ab631-e958-467f-aee7-0edf8619f031.jpg"
     },

@@ -5,6 +5,7 @@ using UdemyFormation.Models;
 
 namespace UdemyFormationWeb.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private IUnitOfAction unitOfAction;

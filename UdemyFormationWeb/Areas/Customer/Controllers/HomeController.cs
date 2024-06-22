@@ -1,21 +1,40 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using UdemyFormation.DataAccess.Repository.IRepository;
 using UdemyFormation.Models;
 
 namespace UdemyFormationWeb.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IUnitOfAction unitOfAction;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IUnitOfAction unitOfAction)
         {
+            this.unitOfAction = unitOfAction;
             _logger = logger;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var products = unitOfAction.Product.GetAll();
+            return View(products);
+        }
+
+        public IActionResult Details(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var product = unitOfAction.Product.Get((Product p) => p.Id == id, "Category");
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
         }
 
         public IActionResult Privacy()
