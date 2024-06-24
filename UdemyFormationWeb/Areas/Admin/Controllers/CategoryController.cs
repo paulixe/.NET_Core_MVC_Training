@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using UdemyFormation.DataAccess.Data;
 using UdemyFormation.DataAccess.Repository.IRepository;
 using UdemyFormation.Models;
+using UdemyFormation.Utility;
 
 namespace UdemyFormationWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = Consts.Admin_Role)]
     public class CategoryController : Controller
     {
         private IUnitOfAction unitOfAction;

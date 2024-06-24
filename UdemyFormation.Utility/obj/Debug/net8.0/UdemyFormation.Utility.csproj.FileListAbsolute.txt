@@ -10,3 +10,4 @@ C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Utility\obj\Debug\n
 C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Utility\obj\Debug\net8.0\refint\UdemyFormation.Utility.dll
 C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Utility\obj\Debug\net8.0\UdemyFormation.Utility.pdb
 C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Utility\obj\Debug\net8.0\ref\UdemyFormation.Utility.dll
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Utility\obj\Debug\net8.0\UdemyFormation.Utility.csproj.AssemblyReference.cache

@@ -5,10 +5,13 @@ using UdemyFormation.DataAccess.Repository.IRepository;
 using UdemyFormation.Models;
 using System.Web;
 using Azure.Core.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
+using UdemyFormation.Utility;
 
 namespace UdemyFormationWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = Consts.Admin_Role)]
     public class ProductController : Controller
     {
         private IWebHostEnvironment webHostEnvironment;
