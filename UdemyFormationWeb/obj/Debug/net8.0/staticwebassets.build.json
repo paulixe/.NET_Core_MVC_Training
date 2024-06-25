@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FY5d8UbuI2G0nX6Uj+YeOS7fmGouWyUg+nsQJq0+t54=",
+  "Hash": "nFOqJHsgLy9koj9dbjc58rZ+GD+Qqm78DMIxvQzowGo=",
   "Source": "UdemyFormationWeb",
   "BasePath": "_content/UdemyFormationWeb",
   "Mode": "Default",
@@ -1345,6 +1345,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Product\\dda8ae21-9200-4a91-981c-372332584895.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\wwwroot\\js\\Company.js",
+      "SourceId": "UdemyFormationWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\wwwroot\\",
+      "BasePath": "_content/UdemyFormationWeb",
+      "RelativePath": "js/Company.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Company.js"
     },
     {
       "Identity": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\wwwroot\\js\\Product.js",

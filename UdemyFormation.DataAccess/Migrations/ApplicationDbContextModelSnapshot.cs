@@ -270,6 +270,41 @@ namespace UdemyFormation.DataAccess.Migrations
                         });
                 });
 
+            modelBuilder.Entity("UdemyFormation.Models.Company", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Companies");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Tech Company"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Flat Builer"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Green Goal"
+                        });
+                });
+
             modelBuilder.Entity("UdemyFormation.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -349,6 +384,9 @@ namespace UdemyFormation.DataAccess.Migrations
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
+                    b.Property<int?>("CompanyId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -356,6 +394,8 @@ namespace UdemyFormation.DataAccess.Migrations
                     b.Property<string>("Role")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("CompanyId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -420,6 +460,15 @@ namespace UdemyFormation.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("UdemyFormation.Models.ApplicationUser", b =>
+                {
+                    b.HasOne("UdemyFormation.Models.Company", "Company")
+                        .WithMany()
+                        .HasForeignKey("CompanyId");
+
+                    b.Navigation("Company");
                 });
 #pragma warning restore 612, 618
         }

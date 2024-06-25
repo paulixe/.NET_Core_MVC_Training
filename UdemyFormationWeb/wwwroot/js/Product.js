@@ -16,7 +16,7 @@ function loadDataTable() {
                 "render": function (data) {
                     return `<div class="w-75 btn-group" role="group">
 
-        <a class="btn btn-primary mx-2" asp-controller="Product" asp-action="Upsert" asp-route-id="${data}">
+        <a class="btn btn-primary mx-2" href="/admin/product/upsert?id=${data}">
         <i class="bi bi-pencil-square"></i>
         Edit
         </a>

@@ -21,6 +21,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using UdemyFormation.DataAccess.Repository.IRepository;
 using UdemyFormation.Models;
 using UdemyFormation.Utility;
 
@@ -35,15 +36,18 @@ namespace UdemyFormationWeb.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<IdentityUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly IUnitOfAction _unitOfAction;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             RoleManager<IdentityRole> roleManager,
+            IUnitOfAction unitOfAction,
             IUserStore<IdentityUser> userStore,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender)
         {
+            _unitOfAction = unitOfAction;
             _userManager = userManager;
             _roleManager = roleManager;
             _userStore = userStore;
@@ -111,15 +115,20 @@ namespace UdemyFormationWeb.Areas.Identity.Pages.Account
             [ValidateNever]
             public IEnumerable<SelectListItem> RoleList { get; set; }
 
+            [ValidateNever]
+            public IEnumerable<SelectListItem> CompanyList { get; set; }
+
+            public int CompanyId { get; set; }
             public string Role { get; set; }
         }
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-            if (!_roleManager.RoleExistsAsync(Consts.User_Role).GetAwaiter().GetResult())
+            if (!_roleManager.RoleExistsAsync(Consts.Company_Role).GetAwaiter().GetResult())
             {
                 _roleManager.CreateAsync(new IdentityRole(Consts.User_Role)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(Consts.Admin_Role)).GetAwaiter().GetResult();
+                _roleManager.CreateAsync(new IdentityRole(Consts.Company_Role)).GetAwaiter().GetResult();
             }
             Input = new()
             {
@@ -127,7 +136,12 @@ namespace UdemyFormationWeb.Areas.Identity.Pages.Account
                 {
                     Text = i,
                     Value = i
-                })
+                }),
+                CompanyList = _unitOfAction.Company.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
             };
 
             ReturnUrl = returnUrl;
@@ -151,7 +165,7 @@ namespace UdemyFormationWeb.Areas.Identity.Pages.Account
                     await _userManager.AddToRoleAsync(user, Input.Role);
                 }
                 user.Name = Input.Name;
-
+                user.CompanyId = Input.CompanyId;
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);

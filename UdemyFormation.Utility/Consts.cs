@@ -10,5 +10,6 @@ namespace UdemyFormation.Utility
     {
         public const string User_Role = "User";
         public const string Admin_Role = "Admin";
+        public const string Company_Role = "Company";
     }
 }

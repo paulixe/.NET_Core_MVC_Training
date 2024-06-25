@@ -14,6 +14,7 @@ namespace UdemyFormation.DataAccess.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public DbSet<Company> Companies { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -28,6 +29,11 @@ namespace UdemyFormation.DataAccess.Data
                 new Product() { CategoryId = categoryB.Id, Id = 2, Title = "Explosion", Price = 11.60f, Price10 = 10f, Description = "Special effects everywhere. Bring solar glasses if you don't to become blind." },
                 new Product() { CategoryId = categoryC.Id, Id = 3, Title = "Job affair", Price = 9f, Price10 = 8f, Description = "Work or die. That's the sentence said everyday in the company of Bob." },
                 new Product() { CategoryId = categoryA.Id, Id = 4, Title = "Love story", Price = 10f, Price10 = 9.50f, Description = "Love must be fed everyday or it perished into a disaster." }
+                );
+            modelBuilder.Entity<Company>().HasData(
+                new Company() { Id = 1, Name = "Tech Company" },
+                new Company() { Id = 2, Name = "Flat Builer" },
+                new Company() { Id = 3, Name = "Green Goal" }
                 );
         }
     }

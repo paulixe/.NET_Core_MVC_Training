@@ -18,10 +18,12 @@ namespace UdemyFormation.DataAccess.Repository
             this.db = db;
             Category = new CategoryRepository(db);
             Product = new ProductRepository(db);
+            Company = new CompanyRepository(db);
         }
 
         public ICategoryRepository Category { get; private set; }
         public IProductRepository Product { get; private set; }
+        public ICompanyRepository Company { get; private set; }
 
         public void Save()
         {
