@@ -9,7 +9,7 @@ namespace UdemyFormation.DataAccess.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {
-        IEnumerable<T> GetAll(string? includeProperty = null);
+        IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, string? includeProperty = null);
 
         T Get(Expression<Func<T, bool>> filter, string? includeProperty = null);
 

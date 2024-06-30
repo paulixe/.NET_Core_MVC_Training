@@ -11,6 +11,7 @@ namespace UdemyFormation.DataAccess.Repository.IRepository
         public ICategoryRepository Category { get; }
         public IProductRepository Product { get; }
         public ICompanyRepository Company { get; }
+        public ICartRepository Cart { get; }
 
         public void Save();
     }

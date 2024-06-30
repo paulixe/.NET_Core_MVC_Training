@@ -66,6 +66,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/chaum/Desktop/.NET_Core_MVC_Training/UdemyFormationWeb/Areas/Customer/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaum/Desktop/.NET_Core_MVC_Training/UdemyFormationWeb/Areas/Customer/Views/Cart/Summary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcQ2FydFxTdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/chaum/Desktop/.NET_Core_MVC_Training/UdemyFormationWeb/Areas/Customer/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -248,6 +256,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/chaum/Desktop/.NET_Core_MVC_Training/UdemyFormationWeb/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chaum/Desktop/.NET_Core_MVC_Training/UdemyFormationWeb/Views/Shared/Components/ShoppingCart/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2hvcHBpbmdDYXJ0XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/chaum/Desktop/.NET_Core_MVC_Training/UdemyFormationWeb/Views/Shared/Error.cshtml]

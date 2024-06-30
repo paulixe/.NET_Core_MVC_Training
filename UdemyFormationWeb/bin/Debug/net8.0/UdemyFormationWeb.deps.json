@@ -9,6 +9,7 @@
       "UdemyFormationWeb/1.0.0": {
         "dependencies": {
           "Azure.Identity": "1.12.0",
+          "Microsoft.AspNetCore.Authentication.Facebook": "8.0.6",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.4",
           "Microsoft.AspNetCore.Identity.UI": "8.0.4",
           "Microsoft.EntityFrameworkCore": "8.0.4",
@@ -620,6 +621,14 @@
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.1.1",
           "Microsoft.AspNetCore.Http": "2.1.1",
           "Microsoft.AspNetCore.Http.Extensions": "2.1.1"
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/8.0.6": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "8.0.6.0",
+            "fileVersion": "8.0.624.26909"
+          }
         }
       },
       "Microsoft.AspNetCore.Authorization/2.1.1": {
@@ -3519,6 +3528,13 @@
       "sha512": "sha512-Zo6SLzqxrW0PFg1AB0xSb+Rta4hCuX8hgOY425ldhFq4kKcmw45oJQ2zOIeeW/6EuBtEy+hwDB96baxTmXtfeA==",
       "path": "microsoft.aspnetcore.authentication.core/2.1.1",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/8.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-82DoyiTJrOPW2Uw0yfvvpdGnOJigP9/AHCrlmvGG2KYJO54+OKJp/Ykp5Waquy9s97wNCYtrA0sGAgPoFBcnzQ==",
+      "path": "microsoft.aspnetcore.authentication.facebook/8.0.6",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.8.0.6.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/2.1.1": {
       "type": "package",

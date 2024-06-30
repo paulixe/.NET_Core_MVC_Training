@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Security.Claims;
 using UdemyFormation.DataAccess.Repository.IRepository;
 using UdemyFormation.Models;
 
@@ -19,7 +21,7 @@ namespace UdemyFormationWeb.Areas.Customer.Controllers
 
         public IActionResult Index()
         {
-            var products = unitOfAction.Product.GetAll();
+            var products = unitOfAction.Product.GetAll(null);
             return View(products);
         }
 
@@ -34,7 +36,27 @@ namespace UdemyFormationWeb.Areas.Customer.Controllers
             {
                 return NotFound();
             }
-            return View(product);
+            ProductDetailsVM vm = new() { Count = 1, Product = product };
+            return View(vm);
+        }
+
+        [HttpPost]
+        [Authorize]
+        public IActionResult Details(ProductDetailsVM productDetailsVM)
+        {
+            if (productDetailsVM.Product == null)
+            {
+                return NotFound();
+            }
+            var claimedIdendity = (ClaimsIdentity)User.Identity;
+            string userId = claimedIdendity.FindFirst(ClaimTypes.NameIdentifier).Value;
+            ShoppingCart cart = new() { ProductId = productDetailsVM.Product.Id, UserId = userId, Count = productDetailsVM.Count };
+
+            unitOfAction.Cart.Add(cart);
+            HttpContext.Session.SetInt32("cart", unitOfAction.Cart.GetAll().Count());
+
+            unitOfAction.Save();
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Privacy()

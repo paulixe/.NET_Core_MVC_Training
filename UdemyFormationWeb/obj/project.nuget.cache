@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6APynWvBHz0=",
+  "dgSpecHash": "X4sCM5yhb3M=",
   "success": true,
   "projectFilePath": "C:\\Users\\chaum\\Desktop\\.NET_Core_MVC_Training\\UdemyFormationWeb\\UdemyFormationWeb.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,7 @@
     "C:\\Users\\chaum\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
     "C:\\Users\\chaum\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.1\\microsoft.aspnetcore.authentication.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\chaum\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.1.1\\microsoft.aspnetcore.authentication.core.2.1.1.nupkg.sha512",
+    "C:\\Users\\chaum\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\8.0.6\\microsoft.aspnetcore.authentication.facebook.8.0.6.nupkg.sha512",
     "C:\\Users\\chaum\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.1.1\\microsoft.aspnetcore.authorization.2.1.1.nupkg.sha512",
     "C:\\Users\\chaum\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.1.1\\microsoft.aspnetcore.authorization.policy.2.1.1.nupkg.sha512",
     "C:\\Users\\chaum\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.1.1\\microsoft.aspnetcore.cors.2.1.1.nupkg.sha512",

@@ -36,10 +36,14 @@ namespace UdemyFormation.DataAccess.Repository
             return query.FirstOrDefault();
         }
 
-        public IEnumerable<T> GetAll(string? includeProperty = null)
+        public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string? includeProperty = null)
         {
             var query = dbSet.AsQueryable();
 
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
             if (includeProperty != null)
             {
                 query = query.Include(includeProperty);

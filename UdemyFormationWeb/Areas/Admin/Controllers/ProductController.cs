@@ -126,7 +126,7 @@ namespace UdemyFormationWeb.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var products = ProductRepository.GetAll("Category");
+            var products = ProductRepository.GetAll(includeProperty: "Category");
 
             return Json(new { data = products });
         }
