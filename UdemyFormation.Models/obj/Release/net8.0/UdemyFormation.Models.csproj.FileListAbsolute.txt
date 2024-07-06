@@ -1,0 +1,13 @@
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\bin\Release\net8.0\UdemyFormation.Models.deps.json
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\bin\Release\net8.0\UdemyFormation.Models.dll
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\bin\Release\net8.0\UdemyFormation.Models.pdb
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\obj\Release\net8.0\UdemyFormation.Models.csproj.AssemblyReference.cache
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\obj\Release\net8.0\UdemyFormation.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\obj\Release\net8.0\UdemyFormation.Models.AssemblyInfoInputs.cache
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\obj\Release\net8.0\UdemyFormation.Models.AssemblyInfo.cs
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\obj\Release\net8.0\UdemyFormation.Models.csproj.CoreCompileInputs.cache
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\obj\Release\net8.0\UdemyFormation.Models.sourcelink.json
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\obj\Release\net8.0\UdemyFormation.Models.dll
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\obj\Release\net8.0\refint\UdemyFormation.Models.dll
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\obj\Release\net8.0\UdemyFormation.Models.pdb
+C:\Users\chaum\Desktop\.NET_Core_MVC_Training\UdemyFormation.Models\obj\Release\net8.0\ref\UdemyFormation.Models.dll
